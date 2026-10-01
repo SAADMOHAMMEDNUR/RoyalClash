@@ -14,14 +14,35 @@ public class Player {
         this.deck = deck;
     }
 
-    public Team getTeam() { return team; }
-    public Deck getDeck() { return deck; }
-    public float getElixir() { return elixir; }
-    public int getCrowns() { return crowns; }
-    public boolean canAfford(Card card) { return elixir >= card.getElixirCost(); }
+    public Team getTeam() {
+        return team;
+    }
+    public Deck getDeck() {
+        return deck;
+    }
+    public float getElixir() {
+        return elixir;
+    }
+    public int getCrowns() {
+        return crowns;
+    }
+    public boolean canAfford(Card card) {
+        return elixir >= card.getElixirCost();
+    }
 
-    void addElixir(float amount) { elixir = Math.min(MAX_ELIXIR, elixir + amount); }
-    void spendElixir(int amount) { elixir -= amount; }
-    void addCrown() { crowns++; }
-    void setCrowns(int crowns) { this.crowns = crowns; }
+    void addElixir(float amount) {
+        elixir = Math.min(MAX_ELIXIR, elixir + amount);
+    }
+
+    void spendElixir(int amount) {
+        elixir -= amount;
+    }
+
+    void addCrown() {
+        crowns++;
+    }
+
+    void setCrowns(int crowns) {
+        this.crowns = crowns;
+    }
 }

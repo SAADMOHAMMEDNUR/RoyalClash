@@ -34,16 +34,51 @@ public class Card {
         this.building = building;
     }
 
-    public String getName() { return name; }
-    public String getLabel() { return label; }
-    public int getElixirCost() { return elixirCost; }
-    public int getMaxHP() { return maxHP; }
-    public int getDamage() { return damage; }
-    public float getRange() { return range; }
-    public float getSize() { return size; }
-    public float getSpeed() { return speed; }
-    public float getAttackSpeed() { return attackSpeed; }
-    public int getCount() { return count; }
-    public boolean targetsBuildingsOnly() { return targetsBuildingsOnly; }
-    public boolean isBuilding() { return building; }
+    public String getName() {
+        return name;
+    }
+
+    public String getLabel() {
+        return label;
+    }
+
+    public int getElixirCost() {
+        return elixirCost;
+    }
+
+    public int getMaxHP() {
+        return maxHP;
+    }
+
+    public int getDamage() {
+        return damage;
+    }
+
+    public float getRange() {
+        return range;
+    }
+
+    public float getSize() {
+        return size;
+    }
+
+    public float getSpeed() {
+        return speed;
+    }
+
+    public float getAttackSpeed() {
+        return attackSpeed;
+    }
+
+    public int getCount() {
+        return count;
+    }
+
+    public boolean targetsBuildingsOnly() {
+        return targetsBuildingsOnly;
+    }
+
+    public boolean isBuilding() {
+        return building;
+    }
 }
