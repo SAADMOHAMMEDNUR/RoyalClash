@@ -1,4 +1,4 @@
-# RoyalClash
+# RoyalClash - A Clash Royale look-alike, something I wanted to make!
 
 A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
 
